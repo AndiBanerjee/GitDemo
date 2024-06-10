@@ -1,0 +1,78 @@
+char a,b='k';
+            int c,d=0;
+            String s="";
+            int length=normal.length();
+            char A[]=new char[length];
+            
+            for(int i=0;i<length;i++) {
+                a=normal.charAt(i);
+                c=a;
+                if(c>=65 & c<=90)
+                    c=c+32;
+                else
+                    c=c-32;
+                b=(char)c;
+                A[i]=b;
+            }
+            normal=String.valueOf(A);
+            
+            StringBuilder str=  new StringBuilder(normal);
+            StringBuilder rev=str.reverse();
+            normal=rev.toString();
+           
+            A=normal.toCharArray();
+            for(int i=0;i<length;i++) {
+                
+                a=normal.charAt(i);
+                c=a;
+                if(c==0)
+                    c='*';
+                b=(char)c;
+                A[i]=b;
+            }
+            
+            normal=String.valueOf(A);
+            A=normal.toCharArray();
+           for(int i=0;i<length;i++) {
+                if(i%2==0) {
+                    
+                    a=normal.charAt(i);
+                    s=s+a;
+                }
+                else {
+                    a=normal.charAt(i);
+                    c=a;
+                    s=s+c;
+                }
+            }
+            s=s+"3";
+            
+            
+        return s;
+		
+		input:
+		Welcome to hackerrank
+		?85O89*69R65*87O104*33I1043
+		
+		Output
+		K78A82R69K67A72*79T42E77O67L69w3
+       Hi! How are you?
+		
+		Selenium:
+		Course ID: 61166---ION exam on Selenium E0
+		Course ID: 62837
+		Course ID: 62838
+		Course ID: 43242
+		
+		Java:
+		1.Try Deciphering
+		2.File handling
+		3.Collections and framework
+		4.Wrapper class
+		5.Buffered reader
+		6.More on String-mutable+immutable
+		7.
+		
+		?85O89*69R65*87O104*33I1043
+		
+		?85O89*69R65*87O104*33I104
