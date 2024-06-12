@@ -15,5 +15,9 @@ public class TrackChange {
 		int m=a*b;
 		System.out.println("the mul value is :"+m);
 	}
+	public void calculateDiv() {
+		int d=a/b;
+		System.out.println("the div value is :"+d);
+	}
 	
 }
