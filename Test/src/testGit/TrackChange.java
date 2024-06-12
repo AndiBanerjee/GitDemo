@@ -8,8 +8,12 @@ public class TrackChange {
 		System.out.println("the sum value is :"+r);
 	}
 	public void calculateSub() {
-		int p=a-b;
-		System.out.println("the sub value is :"+p);
+		int s=a-b;
+		System.out.println("the sub value is :"+s);
+	}
+	public void calculateMul() {
+		int m=a*b;
+		System.out.println("the mul value is :"+m);
 	}
 	
 }
