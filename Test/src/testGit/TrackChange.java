@@ -19,8 +19,12 @@ public class TrackChange {
 		int d=a/b;
 		System.out.println("the div value is :"+d);
 	}
-	public void printMethod() {
+	public void brachMethod1() {
 		System.out.println("new branch code");
+	
+	}
+	public void branchMethod2() {
+		System.out.println("new branch code2");
 	
 	}
 }
