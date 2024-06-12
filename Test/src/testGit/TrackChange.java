@@ -7,5 +7,9 @@ public class TrackChange {
 		int r=a+b;
 		System.out.println("the sum value is :"+r);
 	}
+	public void calculateSub() {
+		int p=a-b;
+		System.out.println("the sub value is :"+p);
+	}
 	
 }
