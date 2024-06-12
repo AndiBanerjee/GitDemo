@@ -17,6 +17,7 @@ public class CodechefTrial {
 		    clearDays=7-(i+j);
 		}
         System.out.println(clearDays);
+        System.out.println("clearWeeks");//just test purpose
 
 	}
 
